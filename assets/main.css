@@ -1,0 +1,95 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* main video setup */
+.main_video {
+	padding-left: 30px;
+}
+
+/*search field */
+.searchTerm {
+  float: left;
+  width: 30%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus {
+  color: #00B4CC;
+}
+
+.searchButton {
+	float: left;
+  position: relative;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*background box*/
+.all_page {
+	background-color: grey;
+}
+
+.videowrapper {
+	display: block;
+    width: 100%;
+    height: 0;
+    left: 100px;
+
+}
+
+.right_side_wrap {
+	display: block;
+	z-index: 1;
+	top: 30px;
+	width: 25%;
+	height: 800px;
+    border: 1px solid grey;
+    padding: 25px;
+    margin: 25px;
+    background-color: white;
+    float: right;
+    position: absolute;
+    left: 800px
+}
+
